@@ -1,3 +1,4 @@
+/*
 const eqArrays = function(array1, array2) {
 
   if (array1.length === array2.length) {
@@ -23,7 +24,7 @@ const assertArraysEqual = function(array1, array2) {
   }
 };
 
-
+*/
 
 // Take two arrays. Filter out the elements of the second array within the first and return the result to a variable
 
@@ -42,7 +43,7 @@ const without = function(sourceArray, arrayToRemove) {
 };
 
 
-
+/*
 console.log(without([1, 2, 3], [1]));
 console.log(without(["1", "2", "3"], [1, 2, "3"]));
 
@@ -53,3 +54,4 @@ console.log(without(words, ["lighthouse"]));
 
 assertArraysEqual(words, ["hello", "world", "lighthouse"]);
 
+*/
