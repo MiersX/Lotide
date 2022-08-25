@@ -25,4 +25,4 @@ const countLetters = function(string) {
   return countObject;
 };
 
-//console.log(countLetters("Love me some apples"));
+console.log(countLetters("Love me some apples"));
