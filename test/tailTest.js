@@ -1,8 +1,9 @@
 const tail = require('../tail');
-const assertArraysEqualTotal = require(`../assertArraysEqual`);
+const eqArrays = require('../eqArrays');
+const assertArraysEqual = require(`../assertArraysEqual`);
 
-const eqArrays = assertArraysEqualTotal[0];
-const assertArraysEqual = assertArraysEqualTotal[1];
+
+
 
 
 
