@@ -1,7 +1,7 @@
-const assertEqual = function(actual, expected) {
-  actual === expected ? console.log(`🟢🟢🟢 Assertion Passed: ${actual} === ${expected}`)
-    : console.log(`🛑🛑🛑 Assertion Failed: ${actual} !== ${expected}`);
-};
+const assertEqual = require('./assertEqual');
+
+
+
 
 // Take in collection of items. Return counts for specific subset of those items.
 
@@ -41,7 +41,11 @@ const countOnly = function(allItems, itemsToCount) {
 };
 
 
+module.exports = countOnly;
 
+
+
+/*
 const firstNames = [
   "Karl",
   "Salima",
@@ -67,7 +71,7 @@ assertEqual(result1["Agouhanna"], undefined);
 
 
 
-
+*/
 
 
 

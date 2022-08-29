@@ -1,4 +1,4 @@
-
+/*
 const eqArrays = function(array1, array2) {
 
   if (array1.length === array2.length) {
@@ -24,7 +24,7 @@ const assertArraysEqual = function(array1, array2) {
   }
 };
 
-
+*/
 
 
 const map = (array, callback) => {
@@ -38,7 +38,15 @@ const map = (array, callback) => {
 
 
 
+
+module.exports = map;
+
+
+
+
+/*
 const words = ["ground", "control", "to", "major", "tom"];
 
 const results1 = map(words, word => word[0]);
 console.log(results1);
+*/

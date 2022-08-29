@@ -41,7 +41,7 @@ const takeUntil = (array, callback) => {
 };
 
 
-
+module.exports = takeUntil;
 
 /*
 const data1 = [1, 2, 5, 7, 2, -1, 2, 4, 5];
